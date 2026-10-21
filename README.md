@@ -26,6 +26,7 @@ I contribute upstream to the projects I run in production:
 | [charts](https://github.com/sdaberdaku/charts) | Helm charts for Spark Connect, Spark History Server, Trino, Karpenter and Kyverno |
 | [apache-airflow-providers-pysparkonk8s](https://github.com/sdaberdaku/apache-airflow-providers-pysparkonk8s) | Airflow provider that runs PySpark tasks on Kubernetes |
 | [wkNNMI](https://cran.r-project.org/package=wkNNMI) | R package on CRAN for mutual-information-weighted k-NN imputation |
+| [baggage-conveyor-assignment](https://github.com/sdaberdaku/baggage-conveyor-assignment) | Assigns arriving flights to airport baggage reclaim conveyors with a mixed-integer model (OR-Tools) |
 
 **Talks and writing**
 
