@@ -31,8 +31,14 @@ I contribute upstream to the projects I run in production:
 
 - Trino Summit 2024: *Optimizing Trino on Kubernetes* ([slides](https://sdaberdaku.github.io/optimizing-trino-on-k8s/))
 
-Articles in [Towards Data Engineering](https://medium.com/@sebastiandaberdaku):
+Articles on [Medium](https://medium.com/@sebastiandaberdaku):
 
+- [Taming noisy neighbours in a multi-tenant Trino cluster](https://medium.com/@sebastiandaberdaku/taming-noisy-neighbours-in-a-multi-tenant-trino-cluster-d34b98d42305)
+- [Trino on Kubernetes, two years after my Trino Summit talk](https://medium.com/@sebastiandaberdaku/trino-on-kubernetes-two-years-after-my-trino-summit-talk-e8a41db8486e)
+- [Running Trino workers on spot instances](https://medium.com/@sebastiandaberdaku/running-trino-workers-on-spot-instances-29ab409ed5ae)
+- [Upgrading Trino on Kubernetes with blue/green clusters](https://medium.com/@sebastiandaberdaku/upgrading-trino-on-kubernetes-with-blue-green-clusters-62adf8e15ab1)
+- [Blocking partial clears in Airflow 2 and 3](https://medium.com/@sebastiandaberdaku/blocking-partial-clears-in-airflow-2-and-3-e6b54111dd4f)
+- [Free TLS for internal services on AWS](https://medium.com/@sebastiandaberdaku/free-tls-for-internal-services-on-aws-34550740ed15)
 - [Enabling AWS Glue support in Apache Spark 4](https://medium.com/towards-data-engineering/enabling-aws-glue-support-in-apache-spark-4-2c1fca7a7149)
 - [Centralized AWS CloudWatch log collection to S3](https://medium.com/towards-data-engineering/centralized-aws-cloudwatch-log-collection-to-s3-7f66a066b48b)
 - [Exploring the Machine Learning capabilities of Trino](https://medium.com/towards-data-engineering/exploring-the-machine-learning-capabilities-of-trino-b35a43a2b1d6)
