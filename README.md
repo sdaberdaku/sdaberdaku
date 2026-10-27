@@ -15,12 +15,14 @@ I contribute upstream to the projects I run in production:
 - [trinodb/charts](https://github.com/trinodb/charts/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): 17 merged PRs, including KEDA worker autoscaling, graceful worker shutdown, NetworkPolicy, the JMX exporter, and PDBs, lifecycle hooks and rollout strategies for Trino Gateway. Nominated as a Trino Champion in 2024 for this work.
 - [trinodb/trino](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): Delta Lake connector fixes (transaction conflict retries, `_delta_log` caching) and a SQL routine compiler fix
 - [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Asdaberdaku): AWS STS region support for the HashiCorp Vault provider
+
 **Projects**
 
 | Project | What it does |
 | --- | --- |
 | [kafka2delta](https://github.com/sdaberdaku/kafka2delta) | Streams Kafka topics into Delta Lake tables. On [PyPI](https://pypi.org/project/kafka2delta/). |
 | [nodereaper](https://github.com/sdaberdaku/nodereaper) | Removes empty and unhealthy Kubernetes nodes when autoscalers fail to scale down |
+| [gluecat](https://github.com/sdaberdaku/gluecat) | Spark catalog plugin for the AWS Glue Data Catalog: one Glue catalog ID and IAM role per Spark catalog, Delta Lake tables, no Hive client. On [Maven Central](https://central.sonatype.com/search?q=io.github.sdaberdaku.gluecat). |
 | [aws-glue-data-catalog-spark-client](https://github.com/sdaberdaku/aws-glue-data-catalog-spark-client) | Lets Apache Spark, including Spark 4, use the AWS Glue Data Catalog as its metastore |
 | [spark-with-glue](https://github.com/sdaberdaku/spark-with-glue) | Apache Spark Docker image with Glue metastore support built in |
 | [charts](https://github.com/sdaberdaku/charts) | Helm charts for Spark Connect, Spark History Server, Trino, Karpenter and Kyverno |
