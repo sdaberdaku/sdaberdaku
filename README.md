@@ -25,8 +25,9 @@ I contribute upstream to the projects I run in production:
 | [gluecat](https://github.com/sdaberdaku/gluecat) | Spark catalog plugin for the AWS Glue Data Catalog: one Glue catalog ID and IAM role per Spark catalog, Delta Lake tables, no Hive client. On [Maven Central](https://central.sonatype.com/search?q=io.github.sdaberdaku.gluecat). |
 | [aws-glue-data-catalog-spark-client](https://github.com/sdaberdaku/aws-glue-data-catalog-spark-client) | Lets Apache Spark, including Spark 4, use the AWS Glue Data Catalog as its metastore |
 | [spark-with-glue](https://github.com/sdaberdaku/spark-with-glue) | Apache Spark Docker image with Glue metastore support built in |
+| [spark-images](https://github.com/sdaberdaku/spark-images) | Apache Spark 3.5 to 4.2 images for Python 3.11 to 3.15, amd64 and arm64, on [GHCR](https://github.com/sdaberdaku/spark-images/pkgs/container/spark) |
 | [charts](https://github.com/sdaberdaku/charts) | Helm charts for Spark Connect, Spark History Server, Trino, Karpenter and Kyverno |
-| [apache-airflow-providers-pysparkonk8s](https://github.com/sdaberdaku/apache-airflow-providers-pysparkonk8s) | Airflow provider that runs PySpark tasks on Kubernetes |
+| [pysparkonk8s](https://github.com/sdaberdaku/pysparkonk8s) | Airflow provider that runs `@task.pyspark` tasks as Spark drivers on Kubernetes, with executor pods created and removed per task. On [PyPI](https://pypi.org/project/airflow-provider-pysparkonk8s/). |
 | [wkNNMI](https://cran.r-project.org/package=wkNNMI) | R package on CRAN for mutual-information-weighted k-NN imputation |
 | [baggage-conveyor-assignment](https://github.com/sdaberdaku/baggage-conveyor-assignment) | Assigns arriving flights to airport baggage reclaim conveyors with a mixed-integer model (OR-Tools) |
 
