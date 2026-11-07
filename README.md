@@ -14,7 +14,7 @@ I contribute upstream to the projects I run in production:
 
 - [trinodb/charts](https://github.com/trinodb/charts/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): 17 merged PRs, including KEDA worker autoscaling, graceful worker shutdown, NetworkPolicy, the JMX exporter, and PDBs, lifecycle hooks and rollout strategies for Trino Gateway. Nominated as a Trino Champion in 2024 for this work.
 - [trinodb/trino](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): Delta Lake connector fixes (transaction conflict retries, `_delta_log` caching) and a SQL routine compiler fix
-- [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Asdaberdaku): AWS STS region support for the HashiCorp Vault provider
+- [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Asdaberdaku): AWS STS region support for the HashiCorp Vault provider; templated `conn_id` and `config_kwargs` in `@task.pyspark`
 
 **Projects**
 
@@ -38,12 +38,14 @@ I contribute upstream to the projects I run in production:
 
 Articles on [Medium](https://medium.com/@sebastiandaberdaku):
 
-- [Taming noisy neighbours in a multi-tenant Trino cluster](https://medium.com/@sebastiandaberdaku/taming-noisy-neighbours-in-a-multi-tenant-trino-cluster-d34b98d42305)
-- [Trino on Kubernetes, two years after my Trino Summit talk](https://medium.com/@sebastiandaberdaku/trino-on-kubernetes-two-years-after-my-trino-summit-talk-e8a41db8486e)
-- [Running Trino workers on spot instances](https://medium.com/@sebastiandaberdaku/running-trino-workers-on-spot-instances-29ab409ed5ae)
-- [Upgrading Trino on Kubernetes with blue/green clusters](https://medium.com/@sebastiandaberdaku/upgrading-trino-on-kubernetes-with-blue-green-clusters-62adf8e15ab1)
-- [Blocking partial clears in Airflow 2 and 3](https://medium.com/@sebastiandaberdaku/blocking-partial-clears-in-airflow-2-and-3-e6b54111dd4f)
-- [Free TLS for internal services on AWS](https://medium.com/@sebastiandaberdaku/free-tls-for-internal-services-on-aws-34550740ed15)
+- [What ten months of deleting idle nodes taught us about Karpenter](https://itnext.io/what-ten-months-of-deleting-idle-nodes-taught-us-about-karpenter-df79f445b02d)
+- [Taming noisy neighbours in a multi-tenant Trino cluster](https://medium.com/towards-data-engineering/taming-noisy-neighbours-in-a-multi-tenant-trino-cluster-d34b98d42305)
+- [Trino on Kubernetes, two years after my Trino Summit talk](https://medium.com/towards-data-engineering/trino-on-kubernetes-two-years-after-my-trino-summit-talk-e8a41db8486e)
+- [Running Trino workers on spot instances](https://itnext.io/running-trino-workers-on-spot-instances-29ab409ed5ae)
+- [Upgrading Trino on Kubernetes with blue/green clusters](https://itnext.io/upgrading-trino-on-kubernetes-with-blue-green-clusters-62adf8e15ab1)
+- [Blocking partial clears in Airflow 2 and 3](https://medium.com/towards-data-engineering/blocking-partial-clears-in-airflow-2-and-3-e6b54111dd4f)
+- [A modern approach to testing Airflow DAGs in Airflow 3](https://medium.com/towards-data-engineering/a-modern-approach-to-testing-airflow-dags-in-airflow-3-c6912c493396)
+- [Free TLS for internal services on AWS](https://itnext.io/free-tls-for-internal-services-on-aws-34550740ed15)
 - [Enabling AWS Glue support in Apache Spark 4](https://medium.com/towards-data-engineering/enabling-aws-glue-support-in-apache-spark-4-2c1fca7a7149)
 - [Centralized AWS CloudWatch log collection to S3](https://medium.com/towards-data-engineering/centralized-aws-cloudwatch-log-collection-to-s3-7f66a066b48b)
 - [Exploring the Machine Learning capabilities of Trino](https://medium.com/towards-data-engineering/exploring-the-machine-learning-capabilities-of-trino-b35a43a2b1d6)
