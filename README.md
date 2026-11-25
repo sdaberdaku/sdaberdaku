@@ -13,8 +13,8 @@ Head of Platform and Data Engineering at [Cardo AI](https://cardoai.com). I buil
 I contribute upstream to the projects I run in production:
 
 - [trinodb/charts](https://github.com/trinodb/charts/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): 17 merged PRs, including KEDA worker autoscaling, graceful worker shutdown, NetworkPolicy, the JMX exporter, and PDBs, lifecycle hooks and rollout strategies for Trino Gateway. Nominated as a Trino Champion in 2024 for this work.
-- [trinodb/trino](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): Delta Lake connector fixes (transaction conflict retries, `_delta_log` caching) and a SQL routine compiler fix
-- [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Asdaberdaku): AWS STS region support for the HashiCorp Vault provider; templated `conn_id` and `config_kwargs` in `@task.pyspark`
+- [trinodb/trino](https://github.com/trinodb/trino/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): Delta Lake connector fixes (transaction conflict retries, `_delta_log` caching), a SQL routine compiler fix and a correctness fix for dynamic filters with `IS NOT DISTINCT FROM`
+- [apache/airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Asdaberdaku+is%3Amerged): AWS STS region support for the HashiCorp Vault provider; templated `conn_id` and `config_kwargs` in `@task.pyspark`; a liveness-probe `terminationGracePeriodSeconds` for Celery workers in the Helm chart
 
 **Projects**
 
@@ -38,6 +38,7 @@ I contribute upstream to the projects I run in production:
 
 Articles on [Medium](https://medium.com/@sebastiandaberdaku):
 
+- [Streaming hundreds of Postgres tables into Delta Lake with one Spark query per database](https://itnext.io/streaming-hundreds-of-postgres-tables-into-delta-lake-with-one-spark-query-per-database-08983ddddfd6)
 - [AWS Glue for Spark and Delta Lake without the Hive client](https://itnext.io/aws-glue-for-spark-and-delta-lake-without-the-hive-client-61c29e4db39d)
 - [What ten months of deleting idle nodes taught us about Karpenter](https://itnext.io/what-ten-months-of-deleting-idle-nodes-taught-us-about-karpenter-df79f445b02d)
 - [Taming noisy neighbours in a multi-tenant Trino cluster](https://medium.com/towards-data-engineering/taming-noisy-neighbours-in-a-multi-tenant-trino-cluster-d34b98d42305)
